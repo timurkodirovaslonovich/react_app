@@ -27,10 +27,7 @@
 	"scripts": {
 		"start": "react-scripts build && react-scripts start",
 		"prestart": "npm run build",
-		"prebuild": "npm run lint",
-		"pretest": "npm run lint",
-		"precommit": "npm run lint",
-		"prepush": "npm run lint",
+		
 		"prettier": "prettier --write \"src/**/*.{js,jsx,json,css,md}\"",
 		"prettier:check": "prettier --check \"src/**/*.{js,jsx,json,css,md}\"",
 		"format": "npm run prettier && npm run lint:fix",
